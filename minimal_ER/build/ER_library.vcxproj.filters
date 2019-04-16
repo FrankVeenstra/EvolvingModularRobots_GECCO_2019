@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\common\v_repLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\CollisionDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\ANN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\ControlFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\CPPN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\CustomANN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\SimpleControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\DefaultGenome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\DefaultGenomeVREP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA_Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA_Generational.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA_SteadyState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA_VREP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\BasicSunEnv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\BlockingSunEnv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\ConstrainedSunEnv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\Environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\EnvironmentFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\MoveAndSun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\MoveEnv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\MovingSunEnv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\RoughMoveEnv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\WaterEnv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\ER_VREP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\ER.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\Genome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\GenomeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\GenomeFactoryVREP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\ER_Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_APlantBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_Leaf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_LeafChloe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_Servo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_Solar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\ModuleFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\BaseMorphology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\CAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\CATVREP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\CustomMorphology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\CustomMorphologyVREP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\Development.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\EdgarsAmazingMorphologyClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\EdgarsAmazingMorphologyClassVREP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_CPPN_Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_CPPN_Interpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_CPPN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_DirectEncoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_DirectEncodingInterpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_LSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_LSystemInterpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\FixedBaseMorphology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\Morphology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\MorphologyFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\MorphologyFactoryVREP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\CPGNeuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\FunctionNeuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\InputNeuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\Neuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\NeuronFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\OutputNeuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\PatternNeuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\SimpleNeuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\VREPUI\VREPUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\RandNum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4E787603-3B8A-3B8C-BA27-CB0984AA6DD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

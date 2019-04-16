@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 11
+
+Fitness = -0.00568314
+,#amountObjects,2,
+,#amountJoints,1,
+,#objectSize,0.223124,0.371668,0.235354,0.261274,0.0525178,0.234312,,
+,#objectPositions,0,0,0.117677,-3.72529e-009,-7.45058e-009,0.117156,,
+,#objectOrientation,-0,0,-0,-0,0,-0,,
+,#objectMass,0,-5.16988e-023,,
+,#objectParent,-1,0,,
+,#objectType,0,0,,
+,#objectState,0,7,,
+,#JointSize,0.02,0.02,,
+,#JointPosition,-0.0382262,-0.0642873,0.117677,,
+,#JointOrientation,0.5,-0.277708,0.246057,,
+,#JointParent,0,,
+,#JointType,0,,
+,#JointAngleLimits,0,0,,
+,#JointMaxForce,0,,
+,#JointMaxVelocity,0,,
+,
+
+End of BaseMorphology

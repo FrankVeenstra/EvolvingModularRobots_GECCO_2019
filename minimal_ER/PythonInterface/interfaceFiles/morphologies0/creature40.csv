@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 40
+
+Fitness = -0.000470084
+,#amountObjects,2,
+,#amountJoints,1,
+,#objectSize,0.180927,0.05,0.05,0.236158,0.05,0.120937,,
+,#objectPositions,0,0,0.025,-5.12227e-009,-1.90921e-008,0.0604686,,
+,#objectOrientation,-0,0,-0,-0,0,-0,,
+,#objectMass,0,-1.34397e-022,,
+,#objectParent,-1,0,,
+,#objectType,0,0,,
+,#objectState,0,6,,
+,#JointSize,0.02,0.02,,
+,#JointPosition,0.00667032,-0.00216991,0.025,,
+,#JointOrientation,0.0865795,0.259806,0.148956,,
+,#JointParent,0,,
+,#JointType,0,,
+,#JointAngleLimits,0,0,,
+,#JointMaxForce,0,,
+,#JointMaxVelocity,0,,
+,
+
+End of BaseMorphology

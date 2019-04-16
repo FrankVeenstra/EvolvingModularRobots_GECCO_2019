@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 29
+
+Fitness = -0.00141663
+,#amountObjects,1,
+,#amountJoints,0,
+,#objectSize,0.264667,0.0723457,0.295941,,
+,#objectPositions,0,0,0.147971,,
+,#objectOrientation,-0,0,-0,,
+,#objectMass,0,,
+,#objectParent,-1,,
+,#objectType,0,,
+,#objectState,0,,
+,#JointSize,,
+,#JointPosition,,
+,#JointOrientation,,
+,#JointParent,,
+,#JointType,,
+,#JointAngleLimits,,
+,#JointMaxForce,,
+,#JointMaxVelocity,,
+,
+
+End of BaseMorphology

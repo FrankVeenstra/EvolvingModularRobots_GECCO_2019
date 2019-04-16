@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 35
+
+Fitness = -0.00383123
+,#amountObjects,3,
+,#amountJoints,2,
+,#objectSize,0.187114,0.137933,0.333319,0.05,0.259642,0.210637,0.151613,0.134323,0.204767,,
+,#objectPositions,0,0,0.166659,-7.45058e-009,-3.72529e-009,0.105319,-2.98023e-008,-7.45058e-009,0.102384,,
+,#objectOrientation,-0,0,-0,-0,0,-0,-0,0,-0,,
+,#objectMass,0,-4.1359e-022,-2.64698e-020,,
+,#objectParent,-1,0,1,,
+,#objectType,0,0,0,,
+,#objectState,0,7,5,,
+,#JointSize,0.02,0.02,0.02,0.02,,
+,#JointPosition,0.00889053,-0.0119534,0.166659,-0.0935568,-0.00491099,0.000838861,,
+,#JointOrientation,0.0716009,0.0531587,0.371119,1.40162,-1.51759,1.05965,,
+,#JointParent,0,0,,
+,#JointType,0,0,,
+,#JointAngleLimits,0,0,0,0,,
+,#JointMaxForce,0,0,,
+,#JointMaxVelocity,0,0,,
+,
+
+End of BaseMorphology

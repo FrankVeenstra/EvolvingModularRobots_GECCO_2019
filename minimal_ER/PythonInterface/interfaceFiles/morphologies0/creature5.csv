@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 5
+
+Fitness = -0.00506475
+,#amountObjects,3,
+,#amountJoints,2,
+,#objectSize,0.375025,0.0540223,0.310649,0.0676321,0.05,0.329186,0.347482,0.249667,0.148143,,
+,#objectPositions,0,0,0.155325,-1.49012e-008,3.72529e-009,0.164593,5.96046e-008,-1.86265e-008,0.0740715,,
+,#objectOrientation,-0,0,-0,-0,0,-0,-0,0,-0,,
+,#objectMass,0,-3.30872e-021,2.11758e-019,,
+,#objectParent,-1,0,1,,
+,#objectType,0,0,0,,
+,#objectState,0,3,2,,
+,#JointSize,0.02,0.02,0.02,0.02,,
+,#JointPosition,0.0415679,-0.0270112,0.0895022,0.033816,-0.0146312,0.0666542,,
+,#JointOrientation,0.293101,0.418377,-0.0961104,0.216082,0.460071,-0.319106,,
+,#JointParent,0,1,,
+,#JointType,0,0,,
+,#JointAngleLimits,0,0,0,0,,
+,#JointMaxForce,0,0,,
+,#JointMaxVelocity,0,0,,
+,
+
+End of BaseMorphology

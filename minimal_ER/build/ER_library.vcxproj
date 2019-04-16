@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ABF9A193-E347-3E77-8D84-2FE5E85AED73}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ER_library</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\V-REP3\V-REP_PRO_EDU</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ER_library.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ER_library</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ER_library.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ER_library</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ER_library.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ER_library</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ER_library.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ER_library</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__WINDOWS__;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__WINDOWS__;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WINDOWS__;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WINDOWS__;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WINDOWS__;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WINDOWS__;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WINDOWS__;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WINDOWS__;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal" "-BC:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build" --check-stamp-file "C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeCCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeCXXCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeRCCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeSystem.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal" "-BC:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build" --check-stamp-file "C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeCCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeCXXCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeRCCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeSystem.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal" "-BC:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build" --check-stamp-file "C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeCCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeCXXCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeRCCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeSystem.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal" "-BC:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build" --check-stamp-file "C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeCCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeCXXCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeRCCompiler.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\3.13.3\CMakeSystem.cmake;C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\common\v_repLib.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\CollisionDetector.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\ANN.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\Control.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\ControlFactory.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\CPPN.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\CustomANN.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\control\SimpleControl.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\DefaultGenome.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\DefaultGenomeVREP.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA_Factory.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA_Generational.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA_SteadyState.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA_VREP.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\EA.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\BasicSunEnv.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\BlockingSunEnv.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\ConstrainedSunEnv.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\Environment.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\EnvironmentFactory.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\MoveAndSun.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\MoveEnv.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\MovingSunEnv.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\RoughMoveEnv.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\env\WaterEnv.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\ER_VREP.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\ER.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\Genome.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\GenomeFactory.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\GenomeFactoryVREP.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\ER_Module.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_APlantBase.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_Cube.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_Leaf.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_LeafChloe.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_Servo.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\Module_Solar.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\module\ModuleFactory.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\BaseMorphology.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\CAT.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\CATVREP.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\CustomMorphology.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\CustomMorphologyVREP.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\Development.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\EdgarsAmazingMorphologyClass.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\EdgarsAmazingMorphologyClassVREP.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_CPPN_Encoding.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_CPPN_Interpreter.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_CPPN.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_DirectEncoding.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_DirectEncodingInterpreter.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_LSystem.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\ER_LSystemInterpreter.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\FixedBaseMorphology.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\Morphology.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\MorphologyFactory.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\morphology\MorphologyFactoryVREP.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\CPGNeuron.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\FunctionNeuron.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\InputNeuron.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\Neuron.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\NeuronFactory.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\OutputNeuron.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\PatternNeuron.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\neuron\SimpleNeuron.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\Settings.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERFiles\VREPUI\VREPUI.cpp" />
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\RandNum.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\build\ZERO_CHECK.vcxproj">
+      <Project>{17B97014-9896-3A95-8321-8F0E08D713C4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

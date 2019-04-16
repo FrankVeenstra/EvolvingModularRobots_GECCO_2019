@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 28
+
+Fitness = -0.00388708
+,#amountObjects,2,
+,#amountJoints,1,
+,#objectSize,0.213923,0.0527268,0.204564,0.355792,0.289357,0.128614,,
+,#objectPositions,0,0,0.102282,-1.86265e-009,-9.31323e-009,0.0643071,,
+,#objectOrientation,-0,0,-0,-0,0,-0,,
+,#objectMass,0,-6.46235e-024,,
+,#objectParent,-1,0,,
+,#objectType,0,0,,
+,#objectState,0,9,,
+,#JointSize,0.02,0.02,,
+,#JointPosition,0.0094035,0.0210807,0.102282,,
+,#JointOrientation,-0.203258,0.0898022,-0.0766365,,
+,#JointParent,0,,
+,#JointType,0,,
+,#JointAngleLimits,0,0,,
+,#JointMaxForce,0,,
+,#JointMaxVelocity,0,,
+,
+
+End of BaseMorphology

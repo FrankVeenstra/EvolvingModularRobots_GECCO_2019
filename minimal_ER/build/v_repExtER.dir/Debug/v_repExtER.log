@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Building Custom Rule C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/CMakeLists.txt
+  CMake does not need to re-run because C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build/CMakeFiles/generate.stamp is up-to-date.
+  v_repExtER.cpp
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\Settings.h(157): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\Settings.h(158): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\neuron\FunctionNeuron.h(42): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_LSystem.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_LSystem.h(95): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_LSystem.h(99): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_CPPN.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_LSystemInterpreter.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\module\Module_Solar.h(31): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_DirectEncoding.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_DirectEncoding.h(92): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_CPPN_Encoding.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_CPPN_Encoding.h(92): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_DirectEncodingInterpreter.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\program files\v-rep3\v-rep_pro_edu\programming\v_repexter_minimal\erfiles\morphology\ER_CPPN_Interpreter.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     Creating library C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build/Debug/v_repExtER.lib and object C:/Program Files/V-REP3/V-REP_PRO_EDU/programming/v_repExtER_Minimal/build/Debug/v_repExtER.exp
+  v_repExtER.vcxproj -> C:\Program Files\V-REP3\V-REP_PRO_EDU\v_repExtER.dll

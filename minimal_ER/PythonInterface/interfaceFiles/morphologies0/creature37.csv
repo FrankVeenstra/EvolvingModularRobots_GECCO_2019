@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 37
+
+Fitness = 0.00276234
+,#amountObjects,2,
+,#amountJoints,1,
+,#objectSize,0.358179,0.189225,0.183497,0.319254,0.117261,0.261417,,
+,#objectPositions,0,0,0.0917486,3.72529e-009,2.6077e-008,0.130709,,
+,#objectOrientation,-0,0,-0,-0,0,-0,,
+,#objectMass,0,5.16988e-023,,
+,#objectParent,-1,0,,
+,#objectType,0,0,,
+,#objectState,0,4,,
+,#JointSize,0.02,0.02,,
+,#JointPosition,-0.0333448,0.0335654,0.0917486,,
+,#JointOrientation,-0.350717,-0.328915,0.399135,,
+,#JointParent,0,,
+,#JointType,0,,
+,#JointAngleLimits,0,0,,
+,#JointMaxForce,0,,
+,#JointMaxVelocity,0,,
+,
+
+End of BaseMorphology

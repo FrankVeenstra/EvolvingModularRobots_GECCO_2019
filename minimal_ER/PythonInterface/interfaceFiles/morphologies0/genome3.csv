@@ -1,0 +1,105 @@
+#Individual:3
+#Fitness:,0
+#AmountStates:,5,
+
+Module Parameters Start Here: ,
+
+#Module:,0
+#ModuleState:,0
+#AmountChilds:,4
+#ChildSites:,0,4,2,2,
+#ChildConfigurations:,2,1,2,3,
+#ChildSiteStates:,1,3,2,3,
+#ModuleType:,1
+
+#ControlParams:,
+#ControlType,-1
+
+#EndOfModule
+
+#Module:,1
+#ModuleState:,1
+#AmountChilds:,4
+#ChildSites:,3,2,4,1,
+#ChildConfigurations:,2,3,0,2,
+#ChildSiteStates:,0,1,2,3,
+#ModuleType:,2
+#bendAngle:,0.393119,
+
+#ControlParams:,
+#ControlType,-1
+
+#EndOfModule
+
+#Module:,2
+#ModuleState:,2
+#AmountChilds:,2
+#ChildSites:,2,1,
+#ChildConfigurations:,0,2,
+#ChildSiteStates:,1,1,
+#ModuleType:,5
+
+#ControlParams:,
+#ControlType,-1
+
+#EndOfModule
+
+#Module:,3
+#ModuleState:,3
+#AmountChilds:,2
+#ChildSites:,2,1,
+#ChildConfigurations:,0,2,
+#ChildSiteStates:,2,2,
+#ModuleType:,4
+#ControlParams:,
+#ControlType,0
+	,#AmountInputNeurons,1,
+		,#StartNeuron,1,
+	,#NeuronID,0,
+	,#Connections:,1,
+		,#EndNeuron,
+	,#AmountInterNeurons,1,
+		,#StartNeuron,3,
+	,#NeuronID,3,
+	,#Connections:,2,
+	,#Threshold,-4.31602e+08,
+	,#CycleSpeed,0.1,
+	,#CycleRange,1,
+		,#EndNeuron,
+	,#AmountOutputNeurons,1,
+		,#StartNeuron,2,
+	,#NeuronID,2,
+	,#Connections:,
+		,#EndNeuron,
+
+
+#EndOfModule
+
+#Module:,4
+#ModuleState:,4
+#AmountChilds:,4
+#ChildSites:,0,3,4,1,
+#ChildConfigurations:,0,3,1,3,
+#ChildSiteStates:,2,4,4,1,
+#ModuleType:,4
+#ControlParams:,
+#ControlType,0
+	,#AmountInputNeurons,1,
+		,#StartNeuron,1,
+	,#NeuronID,0,
+	,#Connections:,1,
+		,#EndNeuron,
+	,#AmountInterNeurons,1,
+		,#StartNeuron,0,
+	,#NeuronID,3,
+	,#Connections:,2,
+		,#EndNeuron,
+	,#AmountOutputNeurons,1,
+		,#StartNeuron,2,
+	,#NeuronID,2,
+	,#Connections:,
+		,#EndNeuron,
+
+
+#EndOfModule
+

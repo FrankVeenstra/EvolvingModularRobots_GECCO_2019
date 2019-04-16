@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 26
+
+Fitness = 0.00615062
+,#amountObjects,2,
+,#amountJoints,1,
+,#objectSize,0.22179,0.367516,0.267286,0.31037,0.217374,0.296614,,
+,#objectPositions,0,0,0.133643,-1.95578e-008,3.72529e-009,0.148307,,
+,#objectOrientation,-0,0,-0,-0,0,-0,,
+,#objectMass,0,-7.48098e-021,,
+,#objectParent,-1,0,,
+,#objectType,0,0,,
+,#objectState,0,4,,
+,#JointSize,0.02,0.02,,
+,#JointPosition,-0.00320201,-0.0238249,0.133643,,
+,#JointOrientation,0.17642,-0.0235832,0.413042,,
+,#JointParent,0,,
+,#JointType,0,,
+,#JointAngleLimits,0,0,,
+,#JointMaxForce,0,,
+,#JointMaxVelocity,0,,
+,
+
+End of BaseMorphology

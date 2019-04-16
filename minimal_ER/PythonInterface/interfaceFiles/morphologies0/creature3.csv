@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 3
+
+Fitness = 0
+,#amountObjects,-842150451,
+,#amountJoints,-842150451,
+,#objectSize,,
+,#objectPositions,,
+,#objectOrientation,,
+,#objectMass,,
+,#objectParent,,
+,#objectType,,
+,#objectState,,
+,#JointSize,,
+,#JointPosition,,
+,#JointOrientation,,
+,#JointParent,,
+,#JointType,,
+,#JointAngleLimits,,
+,#JointMaxForce,,
+,#JointMaxVelocity,,
+,
+
+End of BaseMorphology

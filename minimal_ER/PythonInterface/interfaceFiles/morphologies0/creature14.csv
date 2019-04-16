@@ -1,0 +1,23 @@
+This is the (base) morphology file of individual 14
+
+Fitness = -0.00371621
+,#amountObjects,1,
+,#amountJoints,0,
+,#objectSize,0.357596,0.108231,0.384075,,
+,#objectPositions,0,0,0.192038,,
+,#objectOrientation,-0,0,-0,,
+,#objectMass,0,,
+,#objectParent,-1,,
+,#objectType,0,,
+,#objectState,0,,
+,#JointSize,,
+,#JointPosition,,
+,#JointOrientation,,
+,#JointParent,,
+,#JointType,,
+,#JointAngleLimits,,
+,#JointMaxForce,,
+,#JointMaxVelocity,,
+,
+
+End of BaseMorphology

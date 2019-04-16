@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERClient\ClientEA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERClient\ERClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\remoteApi\extApi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\remoteApi\extApiPlatform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\vrep-programming\common\shared_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\v_repExtER_Minimal\ERClient\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4E787603-3B8A-3B8C-BA27-CB0984AA6DD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
