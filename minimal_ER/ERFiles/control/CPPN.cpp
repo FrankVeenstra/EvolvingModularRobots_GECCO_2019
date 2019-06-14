@@ -168,6 +168,8 @@ shared_ptr<Control> CPPN::clone() const {
 		newANN->outputLayer.push_back(this->outputLayer[i]->clone());
 	}
 	//newANN->makeDependenciesUnique();
+	newANN->checkConnections();
+	newANN->changeConnectionIDToPointer();
 	return newANN;
 }
 
